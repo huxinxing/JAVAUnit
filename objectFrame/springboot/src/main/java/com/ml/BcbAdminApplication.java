@@ -11,7 +11,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @SpringBootApplication
 public class BcbAdminApplication {
 	public static void main(String[] args){
-		SpringApplication application = new SpringApplication(Application.class);
+		SpringApplication application = new SpringApplication(BcbAdminApplication.class);
 		application.run(args);
 	}
 }
